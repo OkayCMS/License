@@ -271,6 +271,7 @@ class License
     private static function validate($key)
     {
         $p = 13;
+        // $g = 3;
         $x = 5;
         $r = '';
         $s = $x;
