@@ -105,7 +105,7 @@ class License
         $routes = self::$module->getRoutes($vendor, $module_name);
         if (self::checkModule($vendor, $module_name) === false)
         {
-            foreach ($routes as & $route)
+            foreach ($routes as &$route)
             {
                 $route['mock'] = true;
             }
